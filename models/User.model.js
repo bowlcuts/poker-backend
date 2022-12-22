@@ -13,14 +13,6 @@ const userSchema = new Schema({
         type: String,
         required: true
     },
-    chips: {
-        type: Number,
-        default: 1000,
-    },
-    // image: {
-    //     type: String,
-    //     default: './img/user.png'
-    // }
 })
 
 const User = model("User", userSchema)
